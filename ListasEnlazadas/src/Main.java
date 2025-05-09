@@ -1,6 +1,9 @@
 import Ise.ListaSimplementeEnlazada;
 import icse.ListaCircularSimplementeEnlazada;
 import ide.ListaDoblementeEnlazada;
+import lcde.ListaCircularDoblementeEnlazada;
+import pc.Cola;
+import pc.Pila;
 
 public class Main {
     public static void main(String[] args) {
@@ -40,7 +43,7 @@ public class Main {
 
         listaDoblementeEnlazada.mostrarAdelante();
         listaDoblementeEnlazada.mostrarAtras();
-         */
+
         ListaCircularSimplementeEnlazada listaCircularSimplementeEnlazada=new ListaCircularSimplementeEnlazada();
         System.out.println(listaCircularSimplementeEnlazada.estaVacio());
         System.out.println(listaCircularSimplementeEnlazada.tamaño());
@@ -57,6 +60,46 @@ public class Main {
 
         //listaCircularSimplementeEnlazada.mostrar();
 
-        listaCircularSimplementeEnlazada.mostrarCircular(2);
+        listaCircularSimplementeEnlazada.mostrarCircular(2);*/
+
+
+       /* ListaCircularDoblementeEnlazada listaCircularDoblementeEnlazada=new ListaCircularDoblementeEnlazada();
+
+        System.out.println(listaCircularDoblementeEnlazada.estaVacia());
+        for (int i=1;i<=5;i++){
+            listaCircularDoblementeEnlazada.insertarFinal(i);
+        }
+        listaCircularDoblementeEnlazada.mostrar();
+        listaCircularDoblementeEnlazada.eliminarFinal();
+        listaCircularDoblementeEnlazada.eliminarFinal();
+        listaCircularDoblementeEnlazada.mostrar();
+
+        listaCircularDoblementeEnlazada.mostarAdelante(8);
+        listaCircularDoblementeEnlazada.mostarAtras(8);
+
+        Cola cola=new Cola();
+        System.out.println(cola.estaVacia());
+
+        for (int i = 1; i <=5 ; i++) {
+            cola.insertar(i);
+        }
+        cola.mostar();
+
+        cola.eliminar();
+        cola.eliminar();
+        cola.mostar();*/
+
+        Pila pila=new Pila();
+        System.out.println(pila.estaVacia());
+
+        for (int i = 1; i <=5 ; i++) {
+            pila.insertar(i);
+        }
+        pila.mostar();
+
+        pila.eliminar();
+        pila.eliminar();
+        pila.eliminar();
+        pila.mostar();
     }
 }
