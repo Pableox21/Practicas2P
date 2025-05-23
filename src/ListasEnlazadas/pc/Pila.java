@@ -1,6 +1,7 @@
 package ListasEnlazadas.pc;
 
-import Ise.Nodo;
+
+import ListasEnlazadas.Ise.Nodo;
 
 public class Pila extends Cola{
     @Override

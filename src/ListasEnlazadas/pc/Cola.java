@@ -1,9 +1,8 @@
 package ListasEnlazadas.pc;
 
-import Ise.Nodo;
-import Ise.ListaSimplementeEnlazada;
+import ListasEnlazadas.Ise.Nodo;
 
-public class Cola extends ListaSimplementeEnlazada {
+public class Cola extends ListasEnlazadas.Ise.ListaSimplementeEnlazada {
 
     @Override
     public void insertar(Object dato) {

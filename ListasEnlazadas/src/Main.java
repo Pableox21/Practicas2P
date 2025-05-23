@@ -2,8 +2,8 @@ import Ise.ListaSimplementeEnlazada;
 import icse.ListaCircularSimplementeEnlazada;
 import ide.ListaDoblementeEnlazada;
 import lcde.ListaCircularDoblementeEnlazada;
-import pc.Cola;
-import pc.Pila;
+import ListasEnlazadas.pc.Cola;
+import ListasEnlazadas.pc.Pila;
 
 public class Main {
     public static void main(String[] args) {
