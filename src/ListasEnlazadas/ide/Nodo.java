@@ -21,7 +21,6 @@ public class Nodo {
     public Object getDato() {
         return dato;
     }
-
     public void setDato(Object dato) {
         this.dato = dato;
     }
@@ -29,7 +28,6 @@ public class Nodo {
     public Nodo getSiguiente() {
         return siguiente;
     }
-
     public void setSiguiente(Nodo siguiente) {
         this.siguiente = siguiente;
     }
