@@ -10,7 +10,7 @@ public class Arbol {
         edades.insertar(70);
         edades.insertar(33);
         edades.insertar(21);
-        edades.insertar(39);
+        edades.insertar(30);
 
         edades.print();
     }
